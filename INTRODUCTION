@@ -1,0 +1,15 @@
+Object-Oriented Programming (OOP) organizes software design around objects, which are instances of classes. It encapsulates data (attributes) and behavior (methods) into reusable and modular components, promoting code reusability, modularity, and maintainability.
+
+Key OOP Principles:
+
+Encapsulation: Bundles data and methods into a single unit (class) and restricts access using specifiers like private and public.
+Example: A Student class encapsulates name, rollNumber, and methods like inputDetails().
+
+Inheritance: Allows a new class (derived class) to inherit attributes and methods from an existing class (base class), promoting code reuse.
+Example: UndergraduateStudent and GraduateStudent inherit name and roll number from Student.
+
+Polymorphism: Enables a function or method to behave differently based on the object calling it, allowing method overriding.
+Example: displayDetails() in Student can be overridden in UndergraduateStudent and GraduateStudent.
+
+Abstraction: Hides complex implementation details and exposes only essential features.
+Example: StudentManagementSystem provides addStudent() without revealing internal data structures.

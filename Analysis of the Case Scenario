@@ -1,0 +1,19 @@
+Key Functional Requirements:
+
+Manage student records (name, roll number, grades).
+
+Differentiate between undergraduate and graduate students.
+
+Add, display, and search for students.
+
+Ensure data encapsulation and code reusability using OOP principles.
+
+Application of OOP Principles:
+
+Encapsulation: Use private attributes with public getter and setter methods to protect student data.
+
+Inheritance: Create a base class Student and derive UndergraduateStudent and GraduateStudent to reuse common attributes and methods.
+
+Polymorphism: Override the displayDetails() method in derived classes to display additional details specific to undergraduate and graduate students.
+
+Abstraction: Hide the internal implementation of the StudentManagementSystem class and expose only necessary methods like addStudent() and displayAllStudents().
